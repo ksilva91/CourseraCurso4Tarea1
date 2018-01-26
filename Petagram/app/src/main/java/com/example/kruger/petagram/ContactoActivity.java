@@ -51,7 +51,7 @@ public class ContactoActivity extends AppCompatActivity {
         String[] recipients = { til_email.getEditText().getText().toString().trim() };
         SendEmailAsyncTask sendEmailAsyncTask = new SendEmailAsyncTask();
         sendEmailAsyncTask.view = view;
-        sendEmailAsyncTask.mail = new Mail("petagramks@gmail.com", "petKevinSilva");
+        sendEmailAsyncTask.mail = new Mail("petagramks@gmail.com", "petagramks123456");
         sendEmailAsyncTask.mail.set_from("petagramks@gmail.com");
         sendEmailAsyncTask.mail.setBody(til_message.getEditText().getText().toString().trim());
         sendEmailAsyncTask.mail.set_to(recipients);
